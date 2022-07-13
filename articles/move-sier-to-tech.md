@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "中小SIerで働いてた人間がテック企業で働いて感じたこと"
 emoji: "👻"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: []
 published: false
 ---
