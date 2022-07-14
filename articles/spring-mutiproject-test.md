@@ -11,7 +11,7 @@ SpringBoot(Kotlin)のマルチプロジェクトの構成で、project-aのtest�
 
 内容は以下のサンプル通り、project-aでtestのJarファイルを作成し、project-bで読み込みます。
 
-```kts:project-a/bundle.gradle
+```kts:project-a/bundle.gradle.kts
 configurations {
     create("test")
 }
@@ -32,7 +32,7 @@ artifacts {
 }
 ```
 
-```kts:projet-b/bundle.gradle
+```kts:projet-b/bundle.gradle.kts
 dependencies {
     implementation(project(":project-a"))
     testImplementation(project(":project-a", "test"))
