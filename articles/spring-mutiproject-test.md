@@ -26,7 +26,7 @@ tasks.register<Jar>("testArchive") {
     // exculude(**/xxx.class)
 }
 
-// 他プロジェクトから"test"で読み込めるようにする
+// 作成したJarを他プロジェクトから"test"で読み込めるようにする
 artifacts {
     add("test", tasks["testArchive"])
 }
