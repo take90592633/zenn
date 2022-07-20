@@ -1,5 +1,5 @@
 ---
-title: "Kotlin実装時にお世話になるサイト"
+title: "【Kotlin】実装時にお世話になるサイト"
 emoji: "📖"
 type: "tech"
 topics:
